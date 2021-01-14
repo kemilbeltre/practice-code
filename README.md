@@ -3,7 +3,7 @@
 In this repository I'm going to try to upload code every day.
  
 
-## Important topics
+## About the contents
 
 - Algorithms. 
 - Data Structures.
