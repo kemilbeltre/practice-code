@@ -1,12 +1,10 @@
-# GOOD PRACTICES
+### README
 
 In this repository I'm going to share a lot of code
 about exercises that are generally seen in interviews 
 and that are very useful to do good practice.
  
-
-## About the contents
-
+#### About the contents:
 - Algorithms. 
 - Data Structures.
 - Concurrency.
