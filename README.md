@@ -7,3 +7,6 @@ In this repository I'm going to share my daily plan for studying Java
 - Data Structures.
 - Concurrency.
 
+###### Emphasis:
+*You hace the explanation in each exercise*
+
