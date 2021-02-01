@@ -8,5 +8,5 @@ In this repository I'm going to share my daily plan for studying Java
 - Concurrency.
 
 ###### Emphasis:
-*You hace the explanation in each exercise*
+*You have the explanation in each exercise*
 
