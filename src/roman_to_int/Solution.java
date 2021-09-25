@@ -1,4 +1,4 @@
-package RomantoInteger;
+package roman_to_int;
 
 public class Solution {
 
@@ -44,32 +44,17 @@ public class Solution {
 
 			int c = s.charAt(i);
 			switch (c) {
-			case 'I':
-				sum += 1;
-				break;
-			case 'V':
-				sum += 5;
-				break;
-			case 'X':
-				sum += 10;
-				break;
-			case 'L':
-				sum += 50;
-				break;
-			case 'C':
-				sum += 100;
-				break;
-			case 'D':
-				sum += 500;
-				break;
-			case 'M':
-				sum += 1000;
-				break;
+				case 'I' -> sum += 1;
+				case 'V' -> sum += 5;
+				case 'X' -> sum += 10;
+				case 'L' -> sum += 50;
+				case 'C' -> sum += 100;
+				case 'D' -> sum += 500;
+				case 'M' -> sum += 1000;
 			}
 			
 			//Go to the next character
 			i++;
-			continue;
 		}
 
 		return sum;

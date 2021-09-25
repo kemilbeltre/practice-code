@@ -1,4 +1,4 @@
-/**
+/*
  * Implement strStr().
  * Return the index of the first occurrence of needle in 
  * haystack, or -1 if needle is not part of haystack.
@@ -8,7 +8,7 @@
  * Output: 2
  */
 
-package ImplementStr;
+package implement_str;
 
 public class Solution {
 	public int strStr(String haystack, String needle) {
@@ -30,7 +30,7 @@ public class Solution {
         if ( M == 0 ) { 
             return 0; 
         }
-        
+
         for(i = 0; i < M-1; i++) {
             h = (h*d)%q; //mod q prevents integer overflow
         }

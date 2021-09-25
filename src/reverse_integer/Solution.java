@@ -4,7 +4,7 @@
  * 32-bit integer range [-231, 231 - 1], then return 0
  */
 
-package Reverse_Integer;
+package reverse_integer;
 
 public class Solution {
 	

@@ -1,4 +1,4 @@
-package NumberOfIslands;
+package number_of_islands;
 
 public class solution {
     public int numIslands(char[][] grid) {

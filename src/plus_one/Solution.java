@@ -22,7 +22,7 @@
  * Output: [1]
  */
 
-package Plus_One;
+package plus_one;
 
 public class Solution {
 

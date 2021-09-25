@@ -1,11 +1,11 @@
-/**
+/*
  * 
  * Given an integer x, return true if x is palindrome integer.
  *  integer is a palindrome when it reads the same backward as forward.
  *   For example, 121 is palindrome while 123 is not.
  */
 
-package PalindromeNumber;
+package palindrome_number;
 
 public class Solution {
 	
@@ -22,7 +22,7 @@ public boolean isPalindrome(int x) {
             else   y = (y + (num % 10)) * 10;
                 num /= 10;   
         }
-        return y == x ? true : false;
+        return y == x;
     }
 
 }

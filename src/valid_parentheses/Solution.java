@@ -7,13 +7,13 @@
  * Open brackets must be closed in the correct order.
  */
 
-package ValidParentheses;
+package valid_parentheses;
 
 import java.util.Stack;
 
 public class Solution {
 	public boolean isValid(String s) {
-        Stack<Character> st = new Stack<Character>();
+        Stack<Character> st = new Stack<>();
         for(char c : s.toCharArray()){
             if(c == '(') st.push(')');
             else if(c == '[') st.push(']');
